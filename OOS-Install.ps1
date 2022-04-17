@@ -7,6 +7,7 @@ Configuration OfficeOnlineServer-Provisioning
     Import-DscResource -ModuleName 'PSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'OfficeOnlineServerDSC'
     Import-DscResource -ModuleName 'xWebAdministration'
+    Import-DscResource -ModuleName 'ComputerManagementDsc'
 
     $SetupAdmin = Get-Credential -Username $ConfigurationData.NonNodeData.ServiceAccounts.SPSetupAccount -Message 'Setup Account'
 
