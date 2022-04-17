@@ -18,6 +18,7 @@ IISLogPath = 'G:\OOS_Logs\IIS'
 ### DSC Resources Used  
 - OfficeOnlineServerDSC
 - xWebAdministration
+- ComputerManagementDsc
 
 ### Web Application Provisioned  
 - oos.contoso.com
